@@ -1,0 +1,76 @@
+.hd-container {
+    align-items: center;
+    background: white;
+    height: 55px;
+    line-height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hd-content {
+    height: 100%;
+    display: flex;
+    padding: 0 13px;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.hd-item {
+    flex: 1;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    padding: 10px 0;
+    height: 55px;
+}
+
+.hd-location {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.hd-red-dot {
+    margin-left: 10px;
+    background-color: #FF3C3C;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.hd-title {
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.hd-btn {
+    text-align: right;
+}
+
+.hd-location-icon {
+    margin-right: 10px;
+}
+
+.hd-search-btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 0px;
+    color: #000000;
+    border: 1px solid #DFDFDF;
+    background-color: white;
+    border-radius: 4px;
+    padding: 15px;
+}

@@ -1,0 +1,22 @@
+.usage-type-list-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 13px;
+}
+
+.usage-type-lst-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.usage-type-lst-header {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    padding: 15px 0;
+}
