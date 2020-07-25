@@ -7,6 +7,7 @@ import './TopPage.css';
 import UsageTypeList from '../usage-type-list/UsageTypeList';
 import SearchByCategory from '../search-by-category/SearchByCategory';
 import { marcoProducts, interiorProducts, usageTypes, marcoXu, fashionStyles, categories } from '../../dump';
+import TopageFooter from '../top-page-footer/TopageFooter';
 
 const TopPage = () => {
     return <>
@@ -20,6 +21,7 @@ const TopPage = () => {
                 <ListProduct title='アウトドア' products={marcoXu} />
                 <ListProduct title='ファッション' products={fashionStyles} />
                 <SearchByCategory title='カテゴリーから探す' categories={categories} />
+                <TopageFooter />
             </div>
         </MasterLayout>
     </>

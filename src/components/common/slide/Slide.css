@@ -5,6 +5,11 @@
     text-align: center;
     background: #292929;
     border-radius: 10px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 307px !important;
+    transition-duration: 500ms, 500ms !important;
+    margin: 0 5px;
 }
 
 .slide-img-container {
