@@ -1,16 +1,13 @@
 import React from 'react';
 import './ListProduct.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Product from '../product/Product';
+import ProductTitle from '../product-title/ProductTitle';
 
 const ListProduct = ({ title, products }) => {
     return <>
         <div className='product-lst-container'>
-            <div className='product-lst-header'>
-                <span className='product-lst-title'>{title}</span>
-                <FontAwesomeIcon icon={faChevronRight} className='product-lst-arrow' />
-            </div>
+            <ProductTitle title={title} icon={faChevronRight} func={null} />
             <div className='product-lst-content'>
                 {
                     products.map(e => (

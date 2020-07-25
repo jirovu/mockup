@@ -1,0 +1,41 @@
+.category-container {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 15px;
+    border: 1px solid #E2E3E7;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    height: 75px;
+}
+
+.category-container:not(:last-child) {
+    margin-right: 13px;
+}
+
+.category-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.category-img {
+    padding-right: 15px;
+}
+
+.category-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+}
+
+.category-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    color: #767889;
+}

@@ -3,3 +3,7 @@
     transform: matrix(1, 0, 0, -1, 0, 0);
     padding: 1px;
 }
+
+.top-page-container {
+    margin-bottom: 72px;
+}

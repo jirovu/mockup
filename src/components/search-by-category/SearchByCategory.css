@@ -1,0 +1,13 @@
+.search-by-category-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.search-by-category-content {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+}

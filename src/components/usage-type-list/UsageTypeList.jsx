@@ -1,13 +1,12 @@
 import React from 'react';
 import './UsageTypeList.css';
 import UsageType from '../common/usage-type/UsageType';
+import ProductTitle from '../common/product-title/ProductTitle';
 
 const UsageTypeList = ({ items, title }) => {
     return <>
         <div className='usage-type-list-container'>
-            <div className='usage-type-lst-header'>
-                <span className='usage-type-lst-title'>{title}</span>
-            </div>
+            <ProductTitle title={title} />
             <div className='usage-type-lst-item'>
                 {
                     items.map(e => (

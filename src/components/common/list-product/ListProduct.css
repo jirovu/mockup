@@ -6,32 +6,6 @@
     height: auto;
 }
 
-.product-lst-header {
-    height: 40px;
-    line-height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.product-lst-header:hover {
-    cursor: pointer;
-}
-
-.product-lst-title {
-    font-family: Arial;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 0px;
-    display: flex;
-    align-items: center;
-    letter-spacing: -0.015em;
-    color: #000000;
-}
-
 .product-lst-content {
     margin-bottom: 10px;
     display: flex;
