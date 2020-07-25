@@ -1,18 +1,18 @@
 
-import usageType1 from '../../assets/img/usage-type1.svg';
-import usageType2 from '../../assets/img/usage-type2.svg';
-import usageType3 from '../../assets/img/usage-type3.svg';
-import usageType4 from '../../assets/img/usage-type4.svg';
-import marcoXu1 from '../../assets/img/marco-xu1.svg';
-import marcoXu2 from '../../assets/img/marco-xu2.svg';
-import fashion1 from '../../assets/img/fashion1.svg';
-import fashion2 from '../../assets/img/fashion2.svg';
-import AllCategory from '../../assets/img/all-category.svg';
-import GadgetCategory from '../../assets/img/gadget-category.svg';
-import interior1 from '../../assets/img/interior1.svg';
-import interior2 from '../../assets/img/interior2.svg';
-import marco1 from '../../assets/img/marco1.svg';
-import marco2 from '../../assets/img/marco2.svg';
+import usageType1 from './assets/img/usage-type1.svg';
+import usageType2 from './assets/img/usage-type2.svg';
+import usageType3 from './assets/img/usage-type3.svg';
+import usageType4 from './assets/img/usage-type4.svg';
+import marcoXu1 from './assets/img/marco-xu1.svg';
+import marcoXu2 from './assets/img/marco-xu2.svg';
+import fashion1 from './assets/img/fashion1.svg';
+import fashion2 from './assets/img/fashion2.svg';
+import AllCategory from './assets/img/all-category.svg';
+import GadgetCategory from './assets/img/gadget-category.svg';
+import interior1 from './assets/img/interior1.svg';
+import interior2 from './assets/img/interior2.svg';
+import marco1 from './assets/img/marco1.svg';
+import marco2 from './assets/img/marco2.svg';
 
 export const marcoProducts = [
     {

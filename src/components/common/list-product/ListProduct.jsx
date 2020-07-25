@@ -3,6 +3,7 @@ import './ListProduct.css';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Product from '../product/Product';
 import ProductTitle from '../product-title/ProductTitle';
+import LineBorder from '../line-border/LineBorder';
 
 const ListProduct = ({ title, products }) => {
     return <>
@@ -18,6 +19,7 @@ const ListProduct = ({ title, products }) => {
                 }
             </div>
         </div>
+        <LineBorder />
     </>
 }
 

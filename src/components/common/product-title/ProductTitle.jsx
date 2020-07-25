@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const ProductTitle = ({ title, icon, func }) => {
     return <>
-        <div className='product-lst-header' onclick={func}>
+        <div className='product-lst-header' onClick={func}>
             <span className='product-lst-title'>{title}</span>
             {icon && <FontAwesomeIcon icon={icon} className='product-lst-arrow' />}
         </div>

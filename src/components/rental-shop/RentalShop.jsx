@@ -5,6 +5,7 @@ import campify from '../../assets/img/campify.svg';
 import casle from '../../assets/img/casle.svg';
 import screenshot from '../../assets/img/screenshot.svg';
 import toysub from '../../assets/img/toysub.svg';
+import LineBorder from '../common/line-border/LineBorder';
 
 const shops = [
     {
@@ -43,6 +44,7 @@ const RentalShop = (props) => {
                 }
             </div>
         </div>
+        <LineBorder />
     </>
 }
 

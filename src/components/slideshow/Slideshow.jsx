@@ -2,6 +2,7 @@ import React from 'react';
 import './Slideshow.css';
 import Slide from '../common/slide/Slide';
 import danielKorpai from '../../assets/img/daniel-korpai-_RYbP9O-vTU-unsplash.svg';
+import LineBorder from '../common/line-border/LineBorder';
 
 const slides = [
     {
@@ -23,6 +24,7 @@ const Slideshow = (props) => {
                 ))
             }
         </div>
+        <LineBorder />
     </>
 }
 

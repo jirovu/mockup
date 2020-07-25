@@ -2,6 +2,7 @@ import React from 'react';
 import './UsageTypeList.css';
 import UsageType from '../common/usage-type/UsageType';
 import ProductTitle from '../common/product-title/ProductTitle';
+import LineBorder from '../common/line-border/LineBorder';
 
 const UsageTypeList = ({ items, title }) => {
     return <>
@@ -17,6 +18,7 @@ const UsageTypeList = ({ items, title }) => {
                 }
             </div>
         </div>
+        <LineBorder />
     </>
 }
 

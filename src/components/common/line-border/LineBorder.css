@@ -1,0 +1,5 @@
+.line-border {
+    background: #F5F5F5;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    padding: 1px;
+}
