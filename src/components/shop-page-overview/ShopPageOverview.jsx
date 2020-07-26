@@ -1,12 +1,12 @@
 import Badge from '@material-ui/core/Badge';
 import React from 'react';
 import ReadMoreAndLess from 'react-read-more-less';
-import { services, shopPageOverviewImgs, storeItems } from '../../dump';
-import LineBorder from '../common/line-border/LineBorder';
-import './ShopPageOverview.css';
 import busIcon from '../../assets/img/bus-icon.svg';
 import mapImg from '../../assets/img/map.svg';
+import { services, shopPageOverviewImgs, storeItems } from '../../dump';
+import LineBorder from '../common/line-border/LineBorder';
 import Product from '../common/product/Product';
+import './ShopPageOverview.css';
 
 const ServiceOverview = ({ title, services }) => {
     return <>
@@ -149,7 +149,7 @@ const ShopPageOverview = (props) => {
                             </React.Fragment>
                         ))
                     }
-                    <a href="#" className='more-link'>もっと見る &#62;</a>
+                    <a href="/" className='more-link'>もっと見る &#62;</a>
                 </div>
             </div>
 
