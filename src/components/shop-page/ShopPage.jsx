@@ -10,6 +10,7 @@ import TobNavigation from '../common/tab-navigation/TabNavigation';
 import LineBorder from '../common/line-border/LineBorder';
 import './ShopPage.css';
 import ShopPageOverview from '../shop-page-overview/ShopPageOverview';
+import ShopPageItemList from '../shop-page-item-list/ShopPageItemList';
 import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -48,10 +49,10 @@ const ShopPage = (props) => {
                     </Tabs>
                     <LineBorder />
                     <TabPanel className={classes.nonPadding} value="1">
-                        Item One
+                        <ShopPageOverview />
                     </TabPanel>
                     <TabPanel className={classes.nonPadding} value="2">
-                        <ShopPageOverview />
+                        <ShopPageItemList />
                     </TabPanel>
                 </TabContext>
             </div>

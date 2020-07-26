@@ -3,22 +3,175 @@ import usageType1 from './assets/img/usage-type1.svg';
 import usageType2 from './assets/img/usage-type2.svg';
 import usageType3 from './assets/img/usage-type3.svg';
 import usageType4 from './assets/img/usage-type4.svg';
+
 import marcoXu1 from './assets/img/marco-xu1.svg';
 import marcoXu2 from './assets/img/marco-xu2.svg';
+
 import fashion1 from './assets/img/fashion1.svg';
 import fashion2 from './assets/img/fashion2.svg';
+
 import AllCategory from './assets/img/all-category.svg';
 import GadgetCategory from './assets/img/gadget-category.svg';
+
 import interior1 from './assets/img/interior1.svg';
 import interior2 from './assets/img/interior2.svg';
+
 import marco1 from './assets/img/marco1.svg';
 import marco2 from './assets/img/marco2.svg';
+
 import product1 from './assets/img/product1.svg';
 import product2 from './assets/img/product2.svg';
 import product3 from './assets/img/product3.svg';
 import product4 from './assets/img/product4.svg';
 import product5 from './assets/img/product5.svg';
 import product6 from './assets/img/product6.svg';
+
+import stype1 from './assets/img/s-type-1.svg';
+import stype2 from './assets/img/s-type-2.svg';
+import stype3 from './assets/img/s-type-3.svg';
+
+import suse1 from './assets/img/s-use-1.svg';
+import suse2 from './assets/img/s-use-2.svg';
+import suse3 from './assets/img/s-use-3.svg';
+import suse4 from './assets/img/s-use-4.svg';
+
+import sdelivery1 from './assets/img/s-delivery-1.svg';
+import sdelivery2 from './assets/img/s-delivery-2.svg';
+import sdelivery3 from './assets/img/s-delivery-3.svg';
+
+import shopPageOverviewImgs1 from './assets/img/shop-page-img-1.svg';
+import shopPageOverviewImgs2 from './assets/img/shop-page-img-2.svg';
+import shopPageOverviewImgs3 from './assets/img/shop-page-img-3.svg';
+
+import storeItem1 from './assets/img/store-item-1.svg';
+import storeItem2 from './assets/img/store-item-2.svg';
+
+export const storeItems = [
+    {
+        id: 0,
+        name: 'Go Pro Hero Black 7',
+        img: storeItem1,
+        price: '4980円 / 月額',
+        btnLst: [
+            {
+                id: '01',
+                btnName: '月額'
+            },
+            {
+                id: '02',
+                btnName: '購入'
+            }
+        ]
+    },
+    {
+        id: 1,
+        name: 'imac',
+        img: storeItem2,
+        price: '7980円 / 月額',
+        btnLst: [
+            {
+                id: '11',
+                btnName: '月額'
+            }
+        ]
+    }
+];
+
+export const shopPageOverviewImgs = [
+    {
+        id: '0',
+        img: shopPageOverviewImgs1,
+    },
+    {
+        id: '1',
+        img: shopPageOverviewImgs2,
+    },
+    {
+        id: '2',
+        img: shopPageOverviewImgs3,
+    }
+];
+
+export const services = [
+    {
+        id: 0,
+        title: '店舗タイプ',
+        services: [
+            {
+                id: '01',
+                img: stype1,
+                txt: '店舗営業',
+                active: false
+            },
+            {
+                id: '02',
+                img: stype2,
+                txt: '事業所',
+                active: false
+            },
+            {
+                id: '03',
+                img: stype3,
+                txt: 'EC',
+                active: true
+            }
+        ]
+    },
+    {
+        id: 1,
+        title: '利用方法',
+        services: [
+            {
+                id: '11',
+                img: suse1,
+                txt: '月額利用',
+                active: true
+            },
+            {
+                id: '12',
+                img: suse2,
+                txt: '短期利用',
+                active: false
+            },
+            {
+                id: '13',
+                img: suse3,
+                txt: '購入可能',
+                active: true
+            },
+            {
+                id: '14',
+                img: suse4,
+                txt: ' 借り放題',
+                active: true
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: '配送',
+        services: [
+            {
+                id: '31',
+                img: sdelivery1,
+                txt: '店舗受取り',
+                active: false
+            },
+            {
+                id: '32',
+                img: sdelivery2,
+                txt: '店舗配送',
+                active: false
+            },
+            {
+                id: '33',
+                img: sdelivery3,
+                txt: '宅配事業者',
+                active: true
+            }
+        ]
+    }
+];
 
 export const products = [
     {
