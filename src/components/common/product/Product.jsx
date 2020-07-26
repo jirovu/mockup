@@ -2,10 +2,10 @@ import React from 'react';
 import './Product.css';
 import ProductBtn from '../product-btn/ProductBtn';
 
-const Product = ({ name, img, price, btnLst }) => {
+const Product = ({ name, img, price, btnLst, horizontal }) => {
     return <>
-        <div className='product-container'>
-            <img src={img} alt="Product img" className='product-img' />
+        <div className={`product-container ${horizontal ? 'pd-horizontal' : 'pd-normal'}`}>
+            <img src={img} alt="Product img" className={horizontal ? 'product-img-horizontal' : 'product-img-normal'} />
             <div className='product-btnLst'>
                 {
                     btnLst.map(e => (

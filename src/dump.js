@@ -13,6 +13,87 @@ import interior1 from './assets/img/interior1.svg';
 import interior2 from './assets/img/interior2.svg';
 import marco1 from './assets/img/marco1.svg';
 import marco2 from './assets/img/marco2.svg';
+import product1 from './assets/img/product1.svg';
+import product2 from './assets/img/product2.svg';
+import product3 from './assets/img/product3.svg';
+import product4 from './assets/img/product4.svg';
+import product5 from './assets/img/product5.svg';
+import product6 from './assets/img/product6.svg';
+
+export const products = [
+    {
+        id: 0,
+        name: 'Real - Apple',
+        img: product1,
+        price: '2980円 / 月額',
+        btnLst: [
+            {
+                id: '01',
+                btnName: '月額'
+            }
+        ]
+    },
+    {
+        id: 1,
+        name: 'Lunchtime',
+        img: product2,
+        price: '1980円 / 月額',
+        btnLst: [
+            {
+                id: '11',
+                btnName: '月額'
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: '鯉',
+        img: product3,
+        price: '2980円 / 月額',
+        btnLst: [
+            {
+                id: '21',
+                btnName: '月額'
+            }
+        ]
+    },
+    {
+        id: 3,
+        name: 'あるカフェのひととき',
+        img: product4,
+        price: '2980円 / 月額',
+        btnLst: [
+            {
+                id: '31',
+                btnName: '月額'
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: 'Real - Apple',
+        img: product5,
+        price: '2980円 / 月額',
+        btnLst: [
+            {
+                id: '41',
+                btnName: '月額'
+            }
+        ]
+    },
+    {
+        id: 5,
+        name: 'Real - Apple',
+        img: product6,
+        price: '2980円 / 月額',
+        btnLst: [
+            {
+                id: '51',
+                btnName: '月額'
+            }
+        ]
+    }
+];
 
 export const marcoProducts = [
     {

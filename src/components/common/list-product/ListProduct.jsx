@@ -8,12 +8,12 @@ import LineBorder from '../line-border/LineBorder';
 const ListProduct = ({ title, products }) => {
     return <>
         <div className='product-lst-container'>
-            <ProductTitle title={title} icon={faChevronRight} func={null} />
+            {title && <ProductTitle title={title} icon={faChevronRight} func={null} />}
             <div className='product-lst-content'>
                 {
                     products.map(e => (
                         <React.Fragment key={e.id}>
-                            <Product name={e.name} img={e.img} price={e.price} btnLst={e.btnLst} />
+                            <Product name={e.name} img={e.img} price={e.price} btnLst={e.btnLst} horizontal={true} />
                         </React.Fragment>
                     ))
                 }
