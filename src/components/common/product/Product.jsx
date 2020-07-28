@@ -10,7 +10,7 @@ const Product = ({ name, img, price, btnLst, horizontal }) => {
                 {
                     btnLst.map(e => (
                         <React.Fragment key={e.btnId}>
-                            <ProductBtn func={null} name={e.btnName} />
+                            <ProductBtn func={null} name={e.btnName} isActive={e.isActive}/>
                         </React.Fragment>
                     ))
                 }

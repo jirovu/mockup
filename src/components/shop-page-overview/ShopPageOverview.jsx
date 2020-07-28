@@ -1,32 +1,14 @@
-import Badge from '@material-ui/core/Badge';
+
 import React from 'react';
 import ReadMoreAndLess from 'react-read-more-less';
 import busIcon from '../../assets/img/bus-icon.svg';
 import mapImg from '../../assets/img/map.svg';
-import { services, shopPageOverviewImgs, storeItems } from '../../dump';
+import { spOverviewServices, shopPageOverviewImgs, storeItems } from '../../dump';
 import LineBorder from '../common/line-border/LineBorder';
 import Product from '../common/product/Product';
 import './ShopPageOverview.css';
+import ServiceList from '../common/service-list/ServiceList';
 
-const ServiceOverview = ({ title, services }) => {
-    return <>
-        <div className='s-o-container'>
-            <div className='s-o-title-con'>
-                <Badge overlap="circle" badgeContent="?" className='s-o-title'>{title}</Badge>
-            </div>
-            <div className='s-o-content'>
-                {
-                    services.map(s => (
-                        <div key={s.id} className='s-o-item'>
-                            <img src={s.img} alt="Service icon" className='s-o-icon' />
-                            <span className='s-o-txt'>{s.txt}</span>
-                        </div>
-                    ))
-                }
-            </div>
-        </div>
-    </>
-}
 
 const ShopPageOverview = (props) => {
     return <>
@@ -54,9 +36,9 @@ const ShopPageOverview = (props) => {
                 <span span className='sp-title'>サービス概要</span>
                 <div className='sp-content'>
                     {
-                        services.map(s => (
+                        spOverviewServices.map(s => (
                             <React.Fragment key={s.id}>
-                                <ServiceOverview title={s.title} services={s.services} />
+                                <ServiceList title={s.title} services={s.services} />
                             </React.Fragment>
                         ))
                     }

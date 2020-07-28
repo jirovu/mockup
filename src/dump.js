@@ -92,7 +92,7 @@ export const shopPageOverviewImgs = [
     }
 ];
 
-export const services = [
+export const spOverviewServices = [
     {
         id: 0,
         title: '店舗タイプ',
@@ -165,6 +165,63 @@ export const services = [
             },
             {
                 id: '33',
+                img: sdelivery3,
+                txt: '宅配事業者',
+                active: true
+            }
+        ]
+    }
+];
+
+export const ipOverviewServices = [
+    {
+        id: 0,
+        title: '店舗タイプ',
+        services: [
+            {
+                id: '01',
+                img: suse1,
+                txt: '月額利用',
+                active: true
+            },
+            {
+                id: '02',
+                img: suse2,
+                txt: '短期利用',
+                active: false
+            },
+            {
+                id: '03',
+                img: suse3,
+                txt: '購入可能',
+                active: true
+            },
+            {
+                id: '04',
+                img: suse4,
+                txt: ' 借り放題',
+                active: false
+            }
+        ]
+    },
+    {
+        id: 1,
+        title: '受取り方法',
+        services: [
+            {
+                id: '11',
+                img: sdelivery1,
+                txt: '店舗受取り',
+                active: false
+            },
+            {
+                id: '12',
+                img: sdelivery2,
+                txt: '店舗配送',
+                active: false
+            },
+            {
+                id: '13',
                 img: sdelivery3,
                 txt: '宅配事業者',
                 active: true

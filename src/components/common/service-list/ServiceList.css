@@ -1,0 +1,56 @@
+.s-o-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.s-o-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.s-o-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.s-o-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.s-o-icon {
+    width: 25px;
+    height: 25px;
+}
+
+.s-o-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding: 10px 0;
+}
+
+.MuiBadge-badge {
+    border-radius: 50% !important;
+    border: 1px solid gray !important;
+}
+
+.MuiBadge-anchorOriginTopRightCircle {
+    top: -25% !important;
+    right: -25% !important;
+}
