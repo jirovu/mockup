@@ -48,29 +48,29 @@ import storeItem2 from './assets/img/store-item-2.svg';
 
 export const storeItems = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'Go Pro Hero Black 7',
         img: storeItem1,
         price: '4980円 / 月額',
         btnLst: [
             {
-                id: '01',
+                id: Math.random(),
                 btnName: '月額'
             },
             {
-                id: '02',
+                id: Math.random(),
                 btnName: '購入'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: 'imac',
         img: storeItem2,
         price: '7980円 / 月額',
         btnLst: [
             {
-                id: '11',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
@@ -79,38 +79,38 @@ export const storeItems = [
 
 export const shopPageOverviewImgs = [
     {
-        id: '0',
+        id: Math.random(),
         img: shopPageOverviewImgs1,
     },
     {
-        id: '1',
+        id: Math.random(),
         img: shopPageOverviewImgs2,
     },
     {
-        id: '2',
+        id: Math.random(),
         img: shopPageOverviewImgs3,
     }
 ];
 
 export const spOverviewServices = [
     {
-        id: 0,
+        id: Math.random(),
         title: '店舗タイプ',
         services: [
             {
-                id: '01',
+                id: Math.random(),
                 img: stype1,
                 txt: '店舗営業',
                 active: false
             },
             {
-                id: '02',
+                id: Math.random(),
                 img: stype2,
                 txt: '事業所',
                 active: false
             },
             {
-                id: '03',
+                id: Math.random(),
                 img: stype3,
                 txt: 'EC',
                 active: true
@@ -118,29 +118,29 @@ export const spOverviewServices = [
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         title: '利用方法',
         services: [
             {
-                id: '11',
+                id: Math.random(),
                 img: suse1,
                 txt: '月額利用',
                 active: true
             },
             {
-                id: '12',
+                id: Math.random(),
                 img: suse2,
                 txt: '短期利用',
                 active: false
             },
             {
-                id: '13',
+                id: Math.random(),
                 img: suse3,
                 txt: '購入可能',
                 active: true
             },
             {
-                id: '14',
+                id: Math.random(),
                 img: suse4,
                 txt: ' 借り放題',
                 active: true
@@ -148,23 +148,23 @@ export const spOverviewServices = [
         ]
     },
     {
-        id: 3,
+        id: Math.random(),
         title: '配送',
         services: [
             {
-                id: '31',
+                id: Math.random(),
                 img: sdelivery1,
                 txt: '店舗受取り',
                 active: false
             },
             {
-                id: '32',
+                id: Math.random(),
                 img: sdelivery2,
                 txt: '店舗配送',
                 active: false
             },
             {
-                id: '33',
+                id: Math.random(),
                 img: sdelivery3,
                 txt: '宅配事業者',
                 active: true
@@ -175,29 +175,29 @@ export const spOverviewServices = [
 
 export const ipOverviewServices = [
     {
-        id: 0,
+        id: Math.random(),
         title: '店舗タイプ',
         services: [
             {
-                id: '01',
+                id: Math.random(),
                 img: suse1,
                 txt: '月額利用',
                 active: true
             },
             {
-                id: '02',
+                id: Math.random(),
                 img: suse2,
                 txt: '短期利用',
                 active: false
             },
             {
-                id: '03',
+                id: Math.random(),
                 img: suse3,
                 txt: '購入可能',
                 active: true
             },
             {
-                id: '04',
+                id: Math.random(),
                 img: suse4,
                 txt: ' 借り放題',
                 active: false
@@ -205,23 +205,23 @@ export const ipOverviewServices = [
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         title: '受取り方法',
         services: [
             {
-                id: '11',
+                id: Math.random(),
                 img: sdelivery1,
                 txt: '店舗受取り',
                 active: false
             },
             {
-                id: '12',
+                id: Math.random(),
                 img: sdelivery2,
                 txt: '店舗配送',
                 active: false
             },
             {
-                id: '13',
+                id: Math.random(),
                 img: sdelivery3,
                 txt: '宅配事業者',
                 active: true
@@ -232,73 +232,73 @@ export const ipOverviewServices = [
 
 export const products = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'Real - Apple',
         img: product1,
         price: '2980円 / 月額',
         btnLst: [
             {
-                id: '01',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: 'Lunchtime',
         img: product2,
         price: '1980円 / 月額',
         btnLst: [
             {
-                id: '11',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 2,
+        id: Math.random(),
         name: '鯉',
         img: product3,
         price: '2980円 / 月額',
         btnLst: [
             {
-                id: '21',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 3,
+        id: Math.random(),
         name: 'あるカフェのひととき',
         img: product4,
         price: '2980円 / 月額',
         btnLst: [
             {
-                id: '31',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 4,
+        id: Math.random(),
         name: 'Real - Apple',
         img: product5,
         price: '2980円 / 月額',
         btnLst: [
             {
-                id: '41',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 5,
+        id: Math.random(),
         name: 'Real - Apple',
         img: product6,
         price: '2980円 / 月額',
         btnLst: [
             {
-                id: '51',
+                id: Math.random(),
                 btnName: '月額'
             }
         ]
@@ -307,49 +307,49 @@ export const products = [
 
 export const marcoProducts = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'iRoboto 648',
         price: '3980円 / 14日',
         img: marco1,
         btnLst: [
             {
-                btnId: '00',
+                btnId: Math.random(),
                 btnName: '短期'
             },
             {
-                btnId: '01',
+                btnId: Math.random(),
                 btnName: '購入'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: 'ホットクック',
         price: '5980円 / 14日',
         img: marco2,
         btnLst: [
             {
-                btnId: '10',
+                btnId: Math.random(),
                 btnName: '短期'
             },
             {
-                btnId: '11',
+                btnId: Math.random(),
                 btnName: '購入'
             }
         ]
     },
     {
-        id: 2,
+        id: Math.random(),
         name: 'ホットクック',
         price: '5980円 / 14日',
         img: marco2,
         btnLst: [
             {
-                btnId: '20',
+                btnId: Math.random(),
                 btnName: '短期'
             },
             {
-                btnId: '21',
+                btnId: Math.random(),
                 btnName: '購入'
             }
         ]
@@ -358,25 +358,25 @@ export const marcoProducts = [
 
 export const interiorProducts = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'アンティークデスク',
         price: '4780円 / 月額',
         img: interior1,
         btnLst: [
             {
-                btnId: '00',
+                btnId: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: '祈りの灯',
         price: '2980円 / 月額',
         img: interior2,
         btnLst: [
             {
-                btnId: '10',
+                btnId: Math.random(),
                 btnName: '月額'
             }
         ]
@@ -385,22 +385,22 @@ export const interiorProducts = [
 
 export const usageTypes = [
     {
-        id: 0,
+        id: Math.random(),
         img: usageType1,
         txt: '月額利用',
     },
     {
-        id: 1,
+        id: Math.random(),
         img: usageType2,
         txt: '短期利用',
     },
     {
-        id: 2,
+        id: Math.random(),
         img: usageType3,
         txt: 'レンタル後購入',
     },
     {
-        id: 3,
+        id: Math.random(),
         img: usageType4,
         txt: '借り放題',
     }
@@ -408,25 +408,25 @@ export const usageTypes = [
 
 export const marcoXu = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'BESV TRS2 XC',
         price: '9000円 / 当日',
         img: marcoXu1,
         btnLst: [
             {
-                btnId: '00',
+                btnId: Math.random(),
                 btnName: '月額'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: 'アスガルド',
         price: '20000円 /1日',
         img: marcoXu2,
         btnLst: [
             {
-                btnId: '10',
+                btnId: Math.random(),
                 btnName: '月額'
             }
         ]
@@ -435,25 +435,25 @@ export const marcoXu = [
 
 export const fashionStyles = [
     {
-        id: 0,
+        id: Math.random(),
         name: 'HERMES',
         price: '6800円 / 月額',
         img: fashion1,
         btnLst: [
             {
-                btnId: '00',
+                btnId: Math.random(),
                 btnName: '借り放題'
             }
         ]
     },
     {
-        id: 1,
+        id: Math.random(),
         name: 'LOUIS VUITTON',
         price: '6800円 / 月額',
         img: fashion2,
         btnLst: [
             {
-                btnId: '10',
+                btnId: Math.random(),
                 btnName: '借り放題'
             }
         ]
@@ -462,19 +462,19 @@ export const fashionStyles = [
 
 export const categories = [
     {
-        id: 0,
+        id: Math.random(),
         img: AllCategory,
         title: '全て',
         txt: 'All Category'
     },
     {
-        id: 1,
+        id: Math.random(),
         img: GadgetCategory,
         title: 'ガジェット',
         txt: 'Gadget'
     },
     {
-        id: 2,
+        id: Math.random(),
         img: GadgetCategory,
         title: 'ガジェット',
         txt: 'Gadget'

@@ -27,13 +27,15 @@ const ShopPageOverview = (props) => {
             <div className='sp-overview-lst-img'>
                 {
                     shopPageOverviewImgs.map(img => (
-                        <img src={img.img} key={img.id} alt='Shop page img' className='sp-overview-img' />
+                        <React.Fragment key={img.id}>
+                            <img src={img.img} alt='Shop page img' className='sp-overview-img' />
+                        </React.Fragment>
                     ))
                 }
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>サービス概要</span>
+                <span className='sp-title'>サービス概要</span>
                 <div className='sp-content'>
                     {
                         spOverviewServices.map(s => (
@@ -46,7 +48,7 @@ const ShopPageOverview = (props) => {
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>3つのグッドポイント</span>
+                <span className='sp-title'>3つのグッドポイント</span>
                 <div className='sp-content'>
                     <div className='sp-point'>
                         <span className='sp-point-numb'>1</span>
@@ -64,7 +66,7 @@ const ShopPageOverview = (props) => {
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>アクセス</span>
+                <span className='sp-title'>アクセス</span>
                 <div className='sp-content'>
                     <div className='sp-content-title'>
                         <div className='sp-icon-con'>
@@ -88,7 +90,7 @@ const ShopPageOverview = (props) => {
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>基本情報</span>
+                <span className='sp-title'>基本情報</span>
                 <div className='sp-content'>
                     <div className='sp-content-item'>
                         <span className='sp-plus'>+</span>
@@ -122,7 +124,7 @@ const ShopPageOverview = (props) => {
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>店舗のアイテム</span>
+                <span className='sp-title'>店舗のアイテム</span>
                 <div className='sp-product-content'>
                     {
                         storeItems.map(item => (
@@ -136,7 +138,7 @@ const ShopPageOverview = (props) => {
             </div>
 
             <div className='sp-overview'>
-                <span span className='sp-title'>規約 / 表記</span>
+                <span className='sp-title'>規約 / 表記</span>
                 <div className='sp-content'>
                     <div className='sp-content-item'>
                         <span className='sp-plus'>+</span>

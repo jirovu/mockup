@@ -9,10 +9,12 @@
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 .ip-content {
     margin-top: 75px;
+    padding-bottom: 100px;
 }
 
 .ip-header-content {
@@ -243,4 +245,319 @@
     align-items: center;
     letter-spacing: -0.015em;
     color: #0B837B;
+}
+
+.ip-o-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+}
+
+.ip-o-item:not(:last-child) {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.ip-txt {
+    margin-left: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.ip-duration {
+    background: #F6F6F6;
+    padding: 35px 20px;
+}
+
+.ip-duration-header, .ip-receive-header, .ip-faq-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.ip-duration-title, .ip-receive-title, .ip-faq-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.ip-duration-txt, .ip-receive-txt, .ip-faq-txt {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #C5C5C5;
+    margin-bottom: 10px;
+}
+
+.ip-duration-it-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-duration-it-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #323232;
+}
+
+.ip-duration-it-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.ip-duration-it-4 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    width: calc((100%)/ 4);
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.ip-duration-it:not(:last-child), .ip-duration-it-2:not(:last-child) {
+    border-right: 1px solid #DFDFDF;
+}
+
+.ip-duration-it-border {
+    border: 0.5px solid #DFDFDF;
+    width: 0.1px;
+    height: 13px;
+    transform: rotate(-90deg);
+}
+
+.ip-duration-it-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.ip-duration-it-des-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.ip-duration-it-txt {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #0B837B;
+}
+
+.ip-duration-it-2 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+    width: calc((100%)/ 2);
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+
+.ip-desc-container {
+    display: flex;
+    flex-direction: row;
+    background: #EAEAEA;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.ip-desc-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-desc-content>span {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.ip-desc-title {
+    text-decoration-line: underline;
+}
+
+.ip-o-ring-icon {
+    padding: 4px;
+}
+
+.ip-receive {
+    padding: 0 20px;
+}
+
+.ip-receive-header, .ip-faq-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10px;
+}
+
+.ip-receive-content {
+    padding: 35px 10px;
+}
+
+.ip-receive-step-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #323232;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.ip-receive-step-des {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ip-receive-step-des>span {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #0B837B;
+}
+
+.step-arrow-img {
+    display: flex;
+    width: 100%;
+}
+
+.step-arrow-img-2 {
+    margin-top: 7px;
+}
+
+.ip-receive-container {
+    display: flex;
+    flex-direction: row;
+    background: #FBF2F3;
+    border: 1px solid #F8E5E6;
+    box-sizing: border-box;
+    padding: 10px;
+    justify-content: center;
+    align-items: self-end;
+}
+
+.ip-faq {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.ip-faq-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.ip-faq-item {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #0B837B;
+    padding: 20px 10px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.ip-faq-see-more-btn {
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: none;
+    width: 98px;
+    height: 43px;
+    margin: 20px 0;
+}
+
+.ip-footer {
+    background: #F8F8F8;
+    padding: 30px;
+}
+
+.ip-add-to-cart {
+    width: 360px;
+    height: 55px;
+    background: #0B837B;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    box-shadow: none;
 }
