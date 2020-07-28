@@ -1,6 +1,5 @@
 .shop-page-container {
-    position: relative;
-    width: 414px;
+    width: 100%;
     overflow: hidden;
     height: auto;
     background-color: white;
@@ -10,13 +9,14 @@
 .shop-page-banner {
     height: auto;
     position: relative;
-    width: 414px;
-    height: 194px;
+    width: 100%;
 }
 
 .shop-page-img {
-    width: 414px;
-    height: 194px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .shop-page-back-icon {
@@ -34,10 +34,10 @@
 
 .shop-page-casie {
     position: absolute;
-    width: 58px;
-    height: 58px;
-    left: 20px;
-    top: 121px;
+    width: 50px;
+    height: 50px;
+    left: 20px;    
+    top: 60%;
     border: 1px solid #E9E9E9;
     box-sizing: border-box;
     border-radius: 10px;
