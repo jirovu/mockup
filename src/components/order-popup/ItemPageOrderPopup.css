@@ -1,0 +1,226 @@
+.it-p-popup-con {
+    position: relative;
+}
+
+.it-p-popup-header {
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10000;
+    background: white;
+    overflow: hidden;
+    width: calc(100% - 26px);
+}
+
+.it-p-popup-header-img {
+    width: 75px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.it-p-popup-header-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+
+.it-p-popup-header-content-name {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.it-p-popup-header-content-txt {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #818181;
+}
+
+.close-icon {
+    position: absolute;
+    margin-right: 13px;
+    font-size: 20px;
+    padding: 13px;
+    right: 0;
+    cursor: pointer;
+}
+
+.it-p-popup-content {
+    position: relative;
+    margin-top: 81px;
+}
+
+.us-period {
+    display: flex;
+    flex-direction: column;
+}
+
+.us-title {
+    padding: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    background: #F9F9F9;
+}
+
+.us-period-item {
+    padding: 15px 13px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MuiInput-underline:before {
+    border: none !important;
+}
+
+.us-period-btn-group {
+    width: 156px;
+}
+
+.size, .ad-ops, .charged-ops {
+    position: relative;
+}
+
+.size-header, .ad-ops-header, .charged-ops-header {
+    padding: 13px;
+    background: #F9F9F9;
+}
+
+.size-header-btn {
+    width: 104px;
+    height: 32px;
+    background: #383838;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.ad-ops-header-btn, .charged-ops-header-btn {
+    width: 104px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.size-title, .ad-ops-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.size-content {
+    padding: 13px;
+}
+
+.us-period-item-txt {
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    color: #000000;
+}
+
+.ad-ops-content, .charged-ops-content {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+}
+
+.ad-ops-content-btn {
+    width: 104px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0;
+}
+
+.charged-ops-content-btn {
+    width: 225px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 5px 0;
+}
+
+.add-to-cart-btn {
+    background: #0B837B;
+    border-radius: 3px;
+    width: 100%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    padding: 13px;
+    margin: auto;
+}
+
+.submit-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+}

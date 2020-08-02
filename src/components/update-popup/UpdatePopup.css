@@ -1,0 +1,162 @@
+.up-container {
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    background-color: white;
+}
+
+.up-header {
+    position: fixed;
+    padding: 13px;
+    display: flex;
+    background-color: white;
+    width: calc(100% - 26px);
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 10000;
+}
+
+.up-close-btn {
+    position: absolute;
+    right: 13px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.up-content {
+    margin-top: 45px;
+    position: relative;
+}
+
+.up-it-product, .up-it-count, .up-usa-peri {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.up-it-product-title, .up-it-count-title, .up-usa-peri-title {
+    padding: 13px;
+    background-color: #F9F9F9;
+}
+
+.up-it-product-container {
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+    align-items: center;
+}
+
+.up-it-img {
+    width: 92px;
+    height: 92px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.up-it-product-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
+
+.up-it-product-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 6px 0;
+}
+
+.up-it-product-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #32B1AA;
+    padding: 6px 0;
+}
+
+.up-it-count-content {
+    position: relative;
+    padding: 25px 13px;
+}
+
+.up-it-count-minus-btn, .up-it-count-plus-btn {
+    padding: 5px;
+    cursor: pointer;
+    margin: 0 13px;
+}
+
+.up-it-count-number {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.up-usa-peri-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-usa-peri-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px;
+    align-items: center;
+}
+
+.up-usa-peri-item-txt {
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    color: #000000;
+}
+
+.us-period-btn-group {
+    width: 156px;
+}
+
+.up-content {
+    padding-bottom: 30px;
+}
+
+.update-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    background: #F9F9F9;
+}
+
+.update-btn {
+    background: #393939;
+    border-radius: 3px;
+    width: 100%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: white;
+    box-shadow: none;
+    border: none;
+    padding: 13px;
+    margin: auto;
+}

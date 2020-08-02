@@ -1,0 +1,312 @@
+.cart-container {
+    background-color: white;
+    position: relative;
+}
+
+.cart-header {
+    padding: 20px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 26px);
+    z-index: 10000;
+    background-color: white;
+}
+
+.back-icon {
+    position: absolute;
+    left: 0;
+    padding: 13px;
+    cursor: pointer;
+}
+
+.cart-header-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.cart-content {
+    margin-top: 65.6px;
+}
+
+.cart-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-o-item-header {
+    padding: 13px;
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-o-item-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.cart-o-item-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.c-product-item {
+    display: flex;
+    flex-direction: row;
+    padding: 13px;
+}
+
+.c-product-img {
+    width: 92px;
+    height: 92px;
+}
+
+.c-product-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    justify-content: space-between;
+    width: calc(100% - 152px);
+}
+
+.c-product-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+.c-product-price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: #32B1AA;
+}
+
+.c-product-btn-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-product-btn {
+    min-width: 47px;
+    height: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 0px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    letter-spacing: -0.015em;
+    cursor: pointer;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+}
+
+.c-product-btn:not(:last-child) {
+    margin-right: 5px;
+}
+
+.c-product-number {
+    display: flex;
+    align-items: center;
+    width: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    justify-content: flex-end;
+}
+
+.usage-period, .pickup-place {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.usage-period {
+    padding-bottom: 13px;
+}
+
+.usage-period-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 13px;
+    background: #F9F9F9;
+}
+
+.usage-period-items {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.usage-period-item {
+    padding: 13px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pickup-place-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    padding: 13px;
+    background: #F9F9F9;
+}
+
+.p-place-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.p-place-receive {
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p-place-btn {
+    min-width: 47px;
+    height: 25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 0px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    letter-spacing: -0.015em;
+    cursor: pointer;
+    border: 1px solid #AFAFAF;
+    box-sizing: border-box;
+}
+
+.p-place-btn-active {
+    background-color: black;
+    color: white;
+}
+
+.p-place-btn:not(:last-child) {
+    margin-right: 5px;
+}
+
+.p-place-receive-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.p-place-products {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 13px;
+}
+
+.p-place-products-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+}
+
+.p-place-products-title {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #DA5649;
+}
+
+.p-place-products-desc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.show-more {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.add-to-cart-button {
+    background: #0B837B;
+    border-radius: 3px;
+    width: 100%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    padding: 13px;
+    margin: auto;
+}
+
+.add-to-cart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    background-color: #F8F8F8;
+}
