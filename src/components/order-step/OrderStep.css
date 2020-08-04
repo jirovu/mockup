@@ -1,0 +1,232 @@
+.os-container {
+    background-color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+
+.os-header {
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 26px);
+    background-color: white;
+    z-index: 1000;
+}
+
+.os-back-icon {
+    padding: 13px;
+    cursor: pointer;
+}
+
+.os-header-num {
+    width: 38px;
+    height: 38px;
+    font-size: 13px;
+    border: 1px solid #989898;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.os-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.os-card-img {
+    margin-right: 13px;
+}
+
+.os-header-title {
+    font-weight: bold;
+}
+
+.os-content {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
+}
+
+.os-info, .os-place {
+    position: relative;
+}
+
+.os-info-header, .os-place-header, .os-address-header, .os-time-header {
+    background-color: #F9F9F9;
+    padding: 13px;
+}
+
+.os-desc-content {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.os-info-content {
+    padding: 20px 0;
+}
+
+.os-info-haft-field {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    width: calc((100% - 52px)/2);
+    float: left;
+}
+
+.MuiOutlinedInput-input {
+    padding: 15px !important;
+}
+
+.os-info-full-field {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    width: calc((100% - 26px));
+}
+
+.os-info-field-txt, .os-address-code-txt {
+    padding-bottom: 5px;
+}
+
+.os-place-content {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.os-address-field {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.os-address-content {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.os-address-code-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.os-address-code-from {
+    width: 97px !important;
+}
+
+.os-address-slash {
+    height: 20px;
+    margin: 0 30px;
+    border: 0.1px solid #BCBCBC;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.os-address-code-to {
+    width: 120px !important;
+}
+
+.os-time-content, .os-billing-addr-content {
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-info-btn {
+    background: #0B837B;
+    border-radius: 3px;
+    width: 100%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    padding: 13px;
+    margin: auto;
+}
+
+.submit-btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px;
+    background-color: #E5E5E5;
+}
+
+.os-desc {
+    padding: 13px;
+}
+
+.os-info-field {
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    width: 60%;
+}
+
+.os-desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #747474;
+}
+
+.os-coupon-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.os-btn {
+    width: 30%;
+    background: #2F2F2F;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    color: white;
+    height: 49px;
+    overflow: hidden;
+}
+
+.os-amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+.os-desc-btm {
+    padding: 13px 13px 50px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    color: #747474;
+}
