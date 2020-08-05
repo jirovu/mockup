@@ -3,7 +3,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 13px;
     display: block;
     letter-spacing: -0.015em;
     color: #000000;
@@ -67,6 +67,12 @@
 .os-info-header, .os-place-header, .os-address-header, .os-time-header {
     background-color: #F9F9F9;
     padding: 13px;
+}
+
+.os-place-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .os-desc-content {
@@ -192,7 +198,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
     color: #747474;
 }
@@ -226,7 +232,110 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 25px;
     color: #747474;
+}
+
+.os-product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px;
+}
+
+.os-product-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0 10px;
+    width: calc(100% - 152px);
+}
+
+.os-product-price {
+    color: #32B1AA;
+}
+
+.os-product-num {
+    display: flex;
+    width: 40px;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.os-product-img {
+    width: 92px;
+    height: 92px;
+}
+
+.os-product-name {
+    padding: 5px 0;
+}
+
+.os-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.os-i-blue {
+    color: #32B1AA;
+}
+
+.os-up-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.os-btn-item-group {
+    padding: 13px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.os-btn-item {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px 13px;
+}
+
+.os-btn-item:not(:last-child) {
+    margin-right: 13px;
+}
+
+.checkbox-small-txt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px !important;
+    color: #000000;
+}
+
+.MuiTypography-body1 {
+    font-size: 11px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
+    color: #000000;
 }
