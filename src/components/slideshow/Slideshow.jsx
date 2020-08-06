@@ -5,8 +5,6 @@ import danielKorpai from '../../assets/img/daniel-korpai-_RYbP9O-vTU-unsplash.sv
 import sebastian from '../../assets/img/sebastian-staines-mfzdRsWsiRA-unsplash.svg';
 import marcoXu from '../../assets/img/marco-xu-ToUPBCO62Lw-unsplash.svg';
 import LineBorder from '../common/line-border/LineBorder';
-import Flickity from 'flickity';
-import 'flickity/dist/flickity.min.css';
 
 const slides = [
     {
@@ -31,8 +29,7 @@ const slides = [
 
 const Slideshow = (props) => {
     return <>
-        <div className="carousel"
-            data-flickity='{ "initialIndex": 1, "prevNextButtons": false }'>
+        <div className="slider">
             {
                 slides.map(s => (
                     <React.Fragment>

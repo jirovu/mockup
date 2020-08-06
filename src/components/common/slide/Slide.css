@@ -1,6 +1,5 @@
 .slide-container {
     height: 420px;
-    width: 307px;
     margin: auto;
     text-align: center;
     background: #292929;
@@ -10,6 +9,18 @@
     flex-basis: 307px !important;
     transition-duration: 500ms, 500ms !important;
     margin: 0 5px;
+    scroll-snap-align: center;
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 307px;
+}
+
+.slide-container:first-child {
+    margin-left: calc((100% - 307px) /2);
+}
+
+.slide-container:last-child {
+    margin-right: calc((100% - 307px) /2);
 }
 
 .slide-img-container {
